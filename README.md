@@ -1,2 +1,14 @@
 # redact-dotenv
-This is a python command line tool that allows you to redact your .env files. 
+
+A simple CLI tool to redact secrets (like API keys, tokens, passwords) from `.env` files.
+
+## Installation
+
+```bash
+pip install redact-dotenv
+```
+## Usage 
+```redact-dotenv .env .env.redacted```
+
+
+
