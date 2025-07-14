@@ -2,7 +2,7 @@ import re
 import click
 from pathlib import Path
 
-SENSITIVE_KEYWORDS = ["KEY", "SECRET", "TOKEN", "PASSWORD", "URL", "ENDPOINT"]
+SENSITIVE_KEYWORDS = ["KEY", "SECRET", "TOKEN", "PASSWORD", "URL"]
 
 def is_sensitive_key(key: str) -> bool:
     return any(keyword in key.upper() for keyword in SENSITIVE_KEYWORDS)
