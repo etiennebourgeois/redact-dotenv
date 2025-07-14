@@ -1,6 +1,6 @@
 [project]
 name = "redact-dotenv"
-version = "1.0.1"
+version = "1.0.2"
 description = "CLI tool to redact secrets from .env files"
 authors = [{ name = "Etienne Bourgeois", email = "etienne@hanstechnologies.ca" }]
 license = { text = "GPL-3.0" }
